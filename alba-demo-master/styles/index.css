@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply bg-black text-green-500;
+}
+
+.title {
+  @apply text-5xl text-center;
+  line-height: 1.15;
+}
+
+@tailwind utilities;
